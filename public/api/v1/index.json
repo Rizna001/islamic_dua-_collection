@@ -79,7 +79,7 @@
   "examples": {
     "javascript": "fetch('/api/v1/duas.json').then(res => res.json()).then(data => console.log(data))",
     "python": "import requests; data = requests.get('/api/v1/duas.json').json()",
-    "curl": "curl <site-url>/api/v1/duas.json"
+    "curl": "curl https://YOUR-RENDER-SITE.onrender.com/api/v1/duas.json"
   },
   "license": "MIT",
   "repository": "https://github.com/Rizna001/islamic_dua-_collection",

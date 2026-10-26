@@ -10,6 +10,8 @@ The Islamic Duas Collection provides a comprehensive JSON API for accessing auth
 /api/v1/
 ```
 
+For external clients, replace `YOUR-RENDER-SITE` with the Render hostname assigned to this service.
+
 Or for local development:
 ```
 http://localhost:5173/api/v1/
@@ -220,7 +222,8 @@ import requests
 import json
 
 # Get all duas
-response = requests.get('<site-url>/api/v1/duas.json')
+base_url = 'https://YOUR-RENDER-SITE.onrender.com'
+response = requests.get(f'{base_url}/api/v1/duas.json')
 data = response.json()
 
 # Print all categories
@@ -240,14 +243,16 @@ for dua in morning_duas['duas']:
 ### cURL
 
 ```bash
+BASE_URL="https://YOUR-RENDER-SITE.onrender.com"
+
 # Get all duas
-curl <site-url>/api/v1/duas.json
+curl "$BASE_URL/api/v1/duas.json"
 
 # Get API index
-curl <site-url>/api/v1/index.json
+curl "$BASE_URL/api/v1/index.json"
 
 # Save to file
-curl -o duas.json <site-url>/api/v1/duas.json
+curl -o duas.json "$BASE_URL/api/v1/duas.json"
 ```
 
 ## Rate Limiting
