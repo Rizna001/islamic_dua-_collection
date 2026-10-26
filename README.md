@@ -1,4 +1,6 @@
-# 🤲 Comprehensive Islamic Duas Collection
+# islamic_dua-_collection
+
+## 🤲 Comprehensive Islamic Duas Collection
 
 A complete collection of authentic Islamic supplications (Duas) from the Quran and Sunnah, organized by situation and available in 10 languages.
 
@@ -103,10 +105,10 @@ A complete collection of authentic Islamic supplications (Duas) from the Quran a
 
 ```bash
 # Clone the repository
-git clone https://github.com/Rizna001/islamic-duas-collection.git
+git clone https://github.com/Rizna001/islamic_dua-_collection.git
 
 # Navigate to project directory
-cd islamic-duas-collection
+cd islamic_dua-_collection
 
 # Install dependencies
 npm install
@@ -117,6 +119,15 @@ npm run dev
 # Build for production
 npm run build
 ```
+
+### Deploy to Render
+
+This repository includes a [`render.yaml`](render.yaml) Blueprint for deploying the app as a Render Static Site.
+
+1. In Render, choose **New → Blueprint** and connect this GitHub repository.
+2. Review the `islamic-duas-collection` static site and deploy it.
+
+Render builds the app with `npm ci && npm run build` and publishes the `dist` directory. The site serves the JSON API at `/api/v1/duas.json`.
 
 ### Using the API
 

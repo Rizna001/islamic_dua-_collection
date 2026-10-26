@@ -6,9 +6,9 @@ Your Islamic Duas Collection repository has been successfully configured and is 
 
 ### ✅ Repository Configuration
 - **Repository Name:** islamic-duas-collection
-- **GitHub URL:** https://github.com/Rizna001/islamic-duas-collection
-- **GitHub Pages URL:** https://rizna001.github.io/islamic-duas-collection
-- **API Endpoint:** https://rizna001.github.io/islamic-duas-collection/api/v1/duas.json
+- **GitHub URL:** https://github.com/Rizna001/islamic_dua-_collection
+- **GitHub Pages URL:** https://rizna001.github.io/islamic_dua-_collection
+- **API Endpoint:** /api/v1/duas.json on the deployed site
 
 ### ✅ Documentation Files Updated
 All documentation files have been updated with your GitHub username:
@@ -45,7 +45,7 @@ git commit -m "Initial release: 200+ authentic duas in 10 languages"
 
 ### 2. Connect to GitHub
 ```bash
-git remote add origin https://github.com/Rizna001/islamic-duas-collection.git
+git remote add origin https://github.com/Rizna001/islamic_dua-_collection.git
 git branch -M main
 git push -u origin main
 ```
@@ -57,7 +57,7 @@ To make the API publicly accessible:
 3. Under "Source", select **Deploy from a branch**
 4. Select branch: **main** and folder: **/ (root)**
 5. Click **Save**
-6. Your API will be live at: `https://rizna001.github.io/islamic-duas-collection/api/v1/duas.json`
+6. Your API will be live at `/api/v1/duas.json` on the deployed site.
 
 ## 📊 Repository Statistics
 
@@ -74,11 +74,10 @@ To make the API publicly accessible:
 
 ## 🔗 Quick Links
 
-- **Repository:** https://github.com/Rizna001/islamic-duas-collection
-- **Main Site (after GitHub Pages):** https://rizna001.github.io/islamic-duas-collection
-- **API Endpoint (after GitHub Pages):** https://rizna001.github.io/islamic-duas-collection/api/v1/duas.json
-- **Documentation:** https://github.com/Rizna001/islamic-duas-collection#readme
-- **API Docs:** https://github.com/Rizna001/islamic-duas-collection/blob/main/API.md
+- **Repository:** https://github.com/Rizna001/islamic_dua-_collection
+- **API Endpoint:** /api/v1/duas.json on the deployed site
+- **Documentation:** https://github.com/Rizna001/islamic_dua-_collection#readme
+- **API Docs:** https://github.com/Rizna001/islamic_dua-_collection/blob/main/API.md
 
 ## 📝 Files Structure
 
@@ -159,5 +158,5 @@ Your Islamic Duas Collection repository is complete and ready to serve the Musli
 
 ---
 
-**Last Updated:** Repository configured for https://github.com/Rizna001/islamic-duas-collection
+**Last Updated:** Repository configured for https://github.com/Rizna001/islamic_dua-_collection
 **Status:** ✅ Ready to push to GitHub

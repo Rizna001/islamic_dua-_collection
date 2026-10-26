@@ -2,19 +2,19 @@
 
 ## Quick Start
 
-Your Islamic Duas Collection repository is ready! Follow these steps to publish it on GitHub.
+The GitHub repository is available at https://github.com/Rizna001/islamic_dua-_collection. Follow these steps to deploy it.
 
 ### Step 1: Create GitHub Repository
 
 1. Go to [GitHub](https://github.com)
 2. Click the "+" icon → "New repository"
-3. Repository name: `islamic-duas-collection`
+3. Repository name: `islamic_dua-_collection`
 4. Description: "A comprehensive collection of authentic Islamic duas in 10 languages"
 5. Make it **Public**
 6. **Don't** initialize with README (we already have one)
 7. Click "Create repository"
 
-**Your repository is ready at:** https://github.com/Rizna001/islamic-duas-collection
+**Your repository:** https://github.com/Rizna001/islamic_dua-_collection
 
 ### Step 2: Initialize Git and Push
 
@@ -29,7 +29,7 @@ git add .
 git commit -m "Initial release: 200+ authentic duas in 10 languages"
 
 # Add remote repository
-git remote add origin https://github.com/Rizna001/islamic-duas-collection.git
+git remote add origin https://github.com/Rizna001/islamic_dua-_collection.git
 
 # Push to GitHub
 git branch -M main
@@ -45,7 +45,7 @@ To make the API publicly accessible:
 3. Under "Source", select **Deploy from a branch**
 4. Select branch: **main** and folder: **/ (root)**
 5. Click **Save**
-6. Your API will be available at: `https://rizna001.github.io/islamic-duas-collection/api/v1/duas.json`
+6. Your API will be available at `/api/v1/duas.json` on your deployed site.
 
 ## 📋 Repository Contents
 
@@ -118,10 +118,10 @@ Consider adding:
 
 After publishing, your repository will have:
 
-- **Main Site:** `https://rizna001.github.io/islamic-duas-collection`
-- **API Endpoint:** `https://rizna001.github.io/islamic-duas-collection/api/v1/duas.json`
-- **Documentation:** `https://github.com/Rizna001/islamic-duas-collection#readme`
-- **API Docs:** `https://github.com/Rizna001/islamic-duas-collection/blob/main/API.md`
+- **Repository:** `https://github.com/Rizna001/islamic_dua-_collection`
+- **API Endpoint:** `/api/v1/duas.json` on the deployed site
+- **Documentation:** `https://github.com/Rizna001/islamic_dua-_collection#readme`
+- **API Docs:** `https://github.com/Rizna001/islamic_dua-_collection/blob/main/API.md`
 
 ## 📝 Commit Message Guidelines
 
